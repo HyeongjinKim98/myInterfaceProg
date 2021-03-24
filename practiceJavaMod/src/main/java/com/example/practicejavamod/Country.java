@@ -1,6 +1,6 @@
 package com.example.practicejavamod;
 
-public class Country {
+public class Country implements Measurable{
     private double area;
     private String country;
 
@@ -9,7 +9,7 @@ public class Country {
         this.area = area;
     }
 
-    public double getArea(){
+    public double getMeasure(){
         return area;
     }
 
