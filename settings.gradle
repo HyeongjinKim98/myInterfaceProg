@@ -1,0 +1,3 @@
+include ':practiceJavaMod'
+include ':app'
+rootProject.name = "myInterfaceProg"
